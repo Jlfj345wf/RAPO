@@ -1,0 +1,17 @@
+{
+    "src_lang" : "en",
+    "tgt_lang" : "zh",
+    "train_epochs": 150, 
+    "lr": 0.002, 
+    "train_batch_size": 64, 
+    "hard_neg_per_pos": 64, 
+    "random_neg_per_pos": 128, 
+    "random_seed": 7777967, 
+    "random_warmup_epoches": 12, 
+    "use_mseloss": false,
+    "adapter_actfunc": "tanh", 
+    "adapter_src_cluster_threshold": 0.9446312670737242, 
+    "adapter_tgt_cluster_threshold": 0.9850036452261268, 
+    "adapter_norm": false,
+    "adapter_regular": 0.012812358079718686
+}
